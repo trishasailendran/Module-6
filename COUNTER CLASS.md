@@ -26,10 +26,34 @@ To write a Python program to create a `Counter` class that can increment the val
 ### PROGRAM
 
 ```
+#Reg.no 212222060280
+#Name Trisha S
+
+class Counter:
+    def __init__(self):
+        self.current = 0
+
+    def increment(self):
+        self.current += 1
+
+    def value(self):
+        return self.current
+
+    def reset(self):
+        self.current = 0
+
+counter = Counter()
+#call the increment method three times
+counter.increment()
+counter.increment()
+counter.increment()
+print(counter.value())
 
 ```
 
 ### OUTPUT
+<img width="827" height="164" alt="image" src="https://github.com/user-attachments/assets/60b70053-abac-4f2a-aa50-b136c4867ae5" />
 
 
 ### RESULT
+This program for Counter class which has one attribute called current which defaults to zero is successfully executed.
